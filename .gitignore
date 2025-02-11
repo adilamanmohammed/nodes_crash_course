@@ -1,0 +1,2 @@
+#dont push the following files to git
+node_modules

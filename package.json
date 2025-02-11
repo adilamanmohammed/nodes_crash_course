@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start" : "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/adilamanmohammed/nodes_crash_course/issues"
   },
-  "homepage": "https://github.com/adilamanmohammed/nodes_crash_course#readme",
-  "devDependencies": {
-    "nodemon": "^3.1.9"
-  }
+  "homepage": "https://github.com/adilamanmohammed/nodes_crash_course#readme"
 }
