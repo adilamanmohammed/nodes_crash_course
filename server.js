@@ -9,8 +9,8 @@ const server = http.createServer((req,res) => {
     // res.statusCode = 404;
     // // h1 tag with Hello World!!! text
 
-    res.writeHead(500, {'content-type' : 'application/json'});
-    res.end(JSON.stringify({ message : 'Server Error'}));
+    res.writeHead(200, {'content-type' : 'text/html'});
+    res.end('<h1>Hello World!!!</h1>');
 });
 
 server.listen(PORT, () => {
