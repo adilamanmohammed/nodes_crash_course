@@ -1,0 +1,4 @@
+// the following installs the package nodemon with dev dependencies which is not needed for Production.
+npm install -D nodemon
+or 
+npm i -D nodemon
