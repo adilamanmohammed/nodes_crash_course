@@ -1,2 +1,6 @@
+#usually all below should be ignored and pushing it to just for learnig purpose or future reference
+
 #dont push the following files to git
-node_modules
+#node_modules
+
+#.env
