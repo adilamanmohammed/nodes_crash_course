@@ -9,6 +9,10 @@ const server = http.createServer((req,res) => {
     // res.statusCode = 404;
     // // h1 tag with Hello World!!! text
 
+
+    console.log(req.url); // this line will print the requested URL
+    console.log(req.method); // this line will print the request method
+
     res.writeHead(200, {'content-type' : 'text/html'});
     res.end('<h1>Hello World!!!</h1>');
 });
